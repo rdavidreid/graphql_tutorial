@@ -1,0 +1,22 @@
+{
+  "name": "graphql_tutorial",
+  "version": "1.0.0",
+  "description": "net ninja graph ql tut",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdavidreid/graphql_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdavidreid/graphql_tutorial/issues"
+  },
+  "homepage": "https://github.com/rdavidreid/graphql_tutorial#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
