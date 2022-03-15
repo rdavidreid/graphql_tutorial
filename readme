@@ -1,0 +1,9 @@
+# Readme - Graphql Tutorial
+
+
+Net Ninja Graphql Tutorial
+
+
+### Starting Server
+`node server/app.js`
+navigate to `http://localhost:4000/graphql?`
