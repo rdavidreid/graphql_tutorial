@@ -3,13 +3,19 @@ const graphqlHTTP = require('express-graphql')
 const schema = require('./schema/schema')
 const mongoose = require('mongoose')
 const DbConnection = require ('../secrets')
+const cors = require('cors')
+
+const app = express();
+
+// allow cross origin
+app.use(cors())
+
 
 mongoose.connect(DbConnection)
 mongoose.connection.once('open', () => {
     console.log('connected to database')
 });
 
-const app = express();
 
 app.use('/graphql', graphqlHTTP({
   schema: schema,
