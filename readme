@@ -1,9 +1,12 @@
 # Readme - Graphql Tutorial
 
-
-Net Ninja Graphql Tutorial
-
+Net Ninja's Graphql Tutorial
+* https://www.youtube.com/playlist?list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f
+* Note this code is mostly copied from https://github.com/iamshaunjp/graphql-playlist/
 
 ### Starting Server
-`node server/app.js`
-navigate to `http://localhost:4000/graphql?`
+Backend: `node server/app.js`
+Frontend: `npm start`
+
+navigate to `http://localhost:4000/graphql?` for graphiql tool
+navigate to `http://localhost:3000/` for react FE
