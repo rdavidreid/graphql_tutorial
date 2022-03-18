@@ -10,3 +10,5 @@ Frontend: `npm start`
 
 navigate to `http://localhost:4000/graphql?` for graphiql tool
 navigate to `http://localhost:3000/` for react FE
+
+<img width="1667" alt="image" src="https://user-images.githubusercontent.com/15862140/158924808-940038de-f7c1-4dcb-804a-21664617ef10.png">
